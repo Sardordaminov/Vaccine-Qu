@@ -1,0 +1,221 @@
+@media screen and (max-width: 1020px) {
+  .intro-content {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro-grid {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .intro-grid > div > div {
+    margin: 20px;
+  }
+  .intro-smth {
+    width: 100%;
+  }
+  .intro-btns {
+    width: 250px;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  .intro-btns a.btn1,
+  .intro-btns a.btn2 {
+    width: 120px;
+    font-size: 14px;
+  }
+  h1.intro-header {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .intro-smth p {
+    margin-top: 0px;
+  }
+  .vaccine-type-item {
+    width: 251px;
+    height: 82px;
+  }
+  .items {
+    width: 100%;
+    height: 34px;
+  }
+  .items-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .items-icon img {
+    width: 14px;
+    height: 14px;
+  }
+  .vaccine-type-find {
+    width: 107px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .navigation-bar ul {
+    width: 300px;
+  }
+  a.call-center-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .vaccine-type-item {
+    margin-top: 30px;
+  }
+  .vaccine-type {
+    padding: 20px 20px;
+  }
+  .sign-up{
+    width: 100%;
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .sign-up-inputs{
+    justify-content: center;
+  }
+  .input{
+    margin: 10px 0px 10px 0px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .navigation-bar {
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #000;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    right: -250px;
+    background: #000;
+    border-radius: 8px;
+    transition: all 0.2s linear;
+  }
+  .navigation-bar:hover {
+    right: 0px;
+  }
+  .navigation-bar ul {
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    justify-content: space-evenly;
+  }
+  .navigation-bar ul li a {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+  }
+  a.call-center-btn {
+    margin-left: 0;
+  }
+  .menu {
+    display: block;
+    border: none;
+    font-size: 30px;
+    background-color: #fff;
+  }
+  .close {
+    display: block;
+    border: none;
+    font-size: 30px;
+    background-color: transparent;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #fff;
+  }
+  .importance-vaccination-1{
+    justify-content: center;
+  }
+  .branchs{
+    width: 414px;
+    height: 300px;
+  }
+  .emergency-contact-item{
+    display: flex;
+    flex-direction: column;
+  }
+  .emergency-block{
+    margin: 10px 0px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .vaccines-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+  }
+  .vaccines {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .grid-dots {
+    display: none;
+  }
+  .vaccines-name h1 {
+    font-size: 28px;
+  }
+  .vaccine-type {
+    padding: 0;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .schedule-vaccination {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .item-input{
+    left: 0;
+  }
+  .vaccine-type-item{
+    margin: 0;
+  }
+  footer{
+    flex-direction: column;
+  }
+  footer div{
+    margin: 10px 0px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sign-up-inputs{
+    width: 100%;
+    height: 600px;
+  }
+  .input{
+    width: 340px;
+    height: 70px;
+  }
+  .input input{
+    width: 280px;
+    height: 40px;
+  }
+  .sign-up-submit{
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
